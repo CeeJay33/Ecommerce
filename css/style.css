@@ -88,6 +88,30 @@ body {
     left: 0;
 }
 
+#header h2{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.logoo{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+#header a{
+    text-decoration: none;
+}
+
 #navbar{
     display: flex;
     align-items: center;
