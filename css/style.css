@@ -183,7 +183,7 @@ body {
 }
 
 #hero button{
-    background-image: url(../others/gg.png);
+    background-image: url(../others/gg-removebg-preview.png);
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -607,6 +607,10 @@ footer .copyright{
 #prodetails .single-pro-image{
     width: 40%;
     margin-right: 50px;
+}
+
+#prodetails .single-pro-image img{
+    border-radius: 9px;
 }
 
 .small-img-group{
