@@ -1311,7 +1311,7 @@ footer .copyright{
     .toast {
         width: 350px;
         position: fixed;
-        bottom: 800px;
+        bottom: 500px;
         right: 30px;
         line-height: 20px;
         border-radius: 12px;
@@ -1320,6 +1320,7 @@ footer .copyright{
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         border-left: 6px solid #088178;
         overflow: hidden;
+        z-index: 999999;
         transform: translateX(calc(100% + 30px));
         transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
