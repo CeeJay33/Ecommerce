@@ -252,6 +252,7 @@ body {
 #product1 .pro-container{
     display: flex;
     justify-content: space-between;
+    /* gap: 30px; */
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -615,7 +616,8 @@ footer .copyright{
 
 .small-img-group{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 10px;
 }
 
 .small-img-col{
@@ -1083,6 +1085,11 @@ footer .copyright{
 /* screen media */
 
 @media (max-width:799px) {
+
+
+    #header h2{
+        font-size: 15px;
+    }
 
     .section-p1 {
         padding: 40px 4px;
